@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Content Provider Exercise</string>
+    <string name="list_phone_number">List phone number</string>
+    <string name="upload">Upload To Firebase</string>
+    <string name="download">Download From Firebase</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="name">Name</string>
+    <string name="gach_ngang">-</string>
+</resources>

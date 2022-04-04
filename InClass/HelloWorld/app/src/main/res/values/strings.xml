@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="btnPlus">+</string>
+    <string name="btnMinus">-</string>
+    <string name="btnMultiple">*</string>
+    <string name="btnDivide">/</string>
+    <string name="txtResult">0</string>
+    <string name="firstNumberHint">0</string>
+    <string name="secondNumberHint">0</string>
+    <string name="result">0</string>
+</resources>

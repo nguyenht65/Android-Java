@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="26dp"
+        android:ems="10"
+        android:hint="@string/txtResult"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/purple_200"
+        app:layout_constraintEnd_toEndOf="@+id/btnDivide"
+        app:layout_constraintTop_toBottomOf="@+id/btnMultiple"
+        tools:ignore="SpeakableTextPresentCheck,TextContrastCheck,DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/btnMultiple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/btnMultiple"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPlus" />
+
+    <Button
+        android:id="@+id/btnDivide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="41dp"
+        android:text="@string/btnDivide"
+        app:layout_constraintBottom_toTopOf="@+id/result"
+        app:layout_constraintStart_toStartOf="@+id/btnMinus" />
+
+    <Button
+        android:id="@+id/btnMinus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="86dp"
+        android:text="@string/btnMinus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnPlus"
+        app:layout_constraintTop_toBottomOf="@+id/secondNumber" />
+
+    <EditText
+        android:id="@+id/secondNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="@string/secondNumberHint"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/purple_200"
+        app:layout_constraintStart_toStartOf="@+id/firstNumber"
+        app:layout_constraintTop_toBottomOf="@+id/firstNumber"
+        tools:ignore="SpeakableTextPresentCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/firstNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:ems="10"
+        android:hint="@string/firstNumberHint"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/purple_200"
+        app:layout_constraintEnd_toEndOf="@+id/result"
+        app:layout_constraintStart_toStartOf="@+id/result"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:backgroundTint="#DC1111"
+        android:text="@string/btnPlus"
+        app:layout_constraintEnd_toEndOf="@+id/btnMultiple"
+        app:layout_constraintStart_toStartOf="@+id/btnMultiple"
+        app:layout_constraintTop_toBottomOf="@+id/secondNumber" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Test1</string>
+    <string name="txtWelcome">Welcome To Mobile Programming Course</string>
+    <string name="btnRegister">Register</string>
+    <string name="btnShowRegistered">Show Registered User</string>
+    <string name="imageText">mainImage</string>
+    <string name="hintName">Input your name</string>
+    <string name="hintEmail">Input your Email</string>
+    <string name="hintPhone">Input your phone</string>
+    <string name="hintAddress">Input your address</string>
+    <string name="registerLabel">Register</string>
+    <string name="btnSaveLabel">Save</string>
+    <string name="radioFemaleLabel">Female</string>
+    <string name="radioMaleLabel">Male</string>
+    <string name="btnBackLabel">Back</string>
+    <string name="detailButtonLabel">Detail</string>
+    <string name="detail_information">Detail Information</string>
+    <string name="callButton">Call</string>
+</resources>

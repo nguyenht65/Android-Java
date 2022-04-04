@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DemoIntent</string>
+    <string name="btnGo">Go</string>
+    <string name="go_result">Go Result</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="yellow">Yellow</string>
+    <string name="blue">Blue</string>
+    <string name="change_background">Change Background</string>
+    <string name="hello">Hello</string>
+</resources>
